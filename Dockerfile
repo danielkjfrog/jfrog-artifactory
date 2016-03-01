@@ -12,4 +12,4 @@ WORKDIR /usr/bin/
 
 EXPOSE 8081
 
-CMD ["./usr/bin/run.sh"]
+CMD /usr/bin/run.sh
